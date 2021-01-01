@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo{
+    display: flex;
+    color:gold;
+    align-items: center;
+    font-size: 17px;
+    margin-right: 13px;
+}
+#logo img{
+    height: 34px;
+    filter: invert(1);
+}
+
+#navbar {
+    text-decoration: none;
+    background-color: rgb(0 0 0);
+    padding: 2px 4px;
+    font-family: 'Roboto', sans-serif;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 7px 31px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(246, 238, 238);
+}
+#navbar li a:hover{
+    padding: 7px 11px;
+    color: goldenrod;
+}
+#intro{
+    padding-bottom: 40px;
+    color: gold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    height: 300px;
+    background-color:goldenrod;
+}
+#intro div.small{
+    padding-top:5px ;
+    font-size: 20px;
+}
+#missionSection {
+    height: 300px;
+    background-color: rgba(212, 247, 247, 0.904);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 12px;
+}
+ #missionSection h2{ 
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 12px; 
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    width: 29%;
+    margin: 23px 22px;
+    height: 209px;
+    border-radius: 10px;
+}
+.card h3{
+    text-align: center;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+}
+.card-img img{
+    height: inherit;
+}
+.sponsor-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#sponsorsSection{
+    height: 192px;
+    background-color: rgb(233, 233, 190);
+}
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#sponsors{
+    height: 192px;
+    max-width: 1000px;
+    margin: auto;
+}
+.spImage {
+    /* margin: auto; */
+    height: 75%;
+    padding-left: 65px;
+    
+}
+#footer{
+    color: whitesmoke;
+    height: 60px;
+    background-color: black;
+    }
+#footer h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Roboto', sans-serif;
+}
